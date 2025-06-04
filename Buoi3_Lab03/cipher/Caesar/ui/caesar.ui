@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPlainTextEdit" name="txtPlainText">
+   <widget class="QPlainTextEdit" name="txt_plain_text">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -70,7 +70,7 @@
      <string>Key:</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="txtCipherText">
+   <widget class="QPlainTextEdit" name="txt_cipher_text">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -93,7 +93,7 @@
      <string> Cipher Text:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnEncrypt">
+   <widget class="QPushButton" name="btn_encrypt">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -114,7 +114,7 @@
      <string>Encrypt</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnDecrypt">
+   <widget class="QPushButton" name="btn_decrypt">
     <property name="geometry">
      <rect>
       <x>644</x>
@@ -135,7 +135,7 @@
      <string>Decrypt</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="txtKey">
+   <widget class="QLineEdit" name="txt_key">
     <property name="geometry">
      <rect>
       <x>70</x>
